@@ -8,8 +8,14 @@ router.get("/", (req, res) => {
 })
 
 router.post("/", (req, res) => {
+
+    const newProduct = {
+        name : req.body.productName,
+        price : req.body.productPrice
+    }
     res.json({
-        message : "register product"
+        message : "register product",
+        productInfo : newProduct
     })
 })
 
