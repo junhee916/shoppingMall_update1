@@ -1,0 +1,23 @@
+{
+  "name": "shoppingmall_update1",
+  "version": "1.0.0",
+  "description": "shoppingMall_update1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junhee916/shoppingMall_update1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junhee916/shoppingMall_update1/issues"
+  },
+  "homepage": "https://github.com/junhee916/shoppingMall_update1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
